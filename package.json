@@ -1,12 +1,8 @@
 {
   "name": "tsrpc-protocol-loader",
-  "version": "0.2.1",
-  "description": "Extended native JS",
+  "version": "0.2.3",
+  "description": "Webpack loader for tsrpc-browser protocols",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha",
-    "build": "rm -rf dist && tsc -d && cp package.json LICENSE README.md dist/ && find dist/test -name \"*.d.ts\" | xargs rm -rf"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/k8w/tsrpc-protocol-loader.git"
